@@ -25,6 +25,7 @@
   "devDependencies": {
     "axios": "^0.18.0",
     "cross-env": "^5.1.4",
+    "jssha": "^2.3.1",
     "node-cache": "^4.2.0",
     "nodemon": "^1.8.1",
     "sha1": "^1.1.1"

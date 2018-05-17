@@ -1,9 +1,10 @@
 const NodeCache = require( "node-cache" );
 const myCache = new NodeCache();
 
-const cache = require('memory-cache');
 
-cache.put('houdini', 'disappear', 10000, function(key, value) {
-    console.log(key + ' did ' + value);
-}); // Time in ms
 
+const ajax = (ctx,next) => {
+    return ctx.response.body = '啊实打实的阿斯顿阿三'
+}
+
+module.exports = {ajax}
